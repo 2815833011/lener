@@ -12,7 +12,7 @@ sum(1,2)
 
 name ="张三"
 def test():
-    # global name  #声明全局变量
+    global name  #声明全局变量
     name ="李四"
 
 test()
