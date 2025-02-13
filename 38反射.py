@@ -25,7 +25,7 @@ a_class_m=getattr(A,"class_m")
 print(a_name)
 a_class_m()
 
-#通过反射获取 类变量 类函数
+#通过反射获取 实例变量 实例函数
 sel=getattr(a,"age")
 sel_test=getattr(a,"test")
 print(sel)

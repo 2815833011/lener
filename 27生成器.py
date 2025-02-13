@@ -23,5 +23,5 @@ def gen_test():
 #yield 是分段执行 调用一次next执行一次yield，并且生成器会暂定卡住等待继续执行
 
 gen=(x for x in range(10))
-print(type(),gen)
+print(type(gen),gen)
 print(next(gen))
