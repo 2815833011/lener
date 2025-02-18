@@ -27,7 +27,7 @@ for u in url:
    thrds.append(t)
 
 for t2 in thrds: #批量结束线程
-    t2.join()
+    t2.join()# 结束线程
     print(t2)
 
 end=datetime.now()

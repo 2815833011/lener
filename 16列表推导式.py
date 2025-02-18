@@ -5,5 +5,5 @@ print(type(a),a)
 a=[i for i in range(10) if i%2!=0]
 print(type(a),a)
 
-a=(x for x in range(10))
+a=(x for x in range(10))  #这是一个生成器表达式 不是列表推导式
 print(type(a),a)
